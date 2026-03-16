@@ -9,14 +9,17 @@ const manrope = Manrope({
   variable: "--font-manrope",
   display: "swap",
 });
+export const metadata = {
+  title: "Shivam Upadhyay | Full Stack Dev (MERN)",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={manrope.className}>
-          <TopLoader />
-          {children}
+        <TopLoader />
+        {children}
       </body>
     </html>
-  )
+  );
 }

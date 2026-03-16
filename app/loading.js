@@ -27,7 +27,7 @@ export default function Loading() {
             <div className="flex-1">
              
               <p className="mt-1 text-sm text-neutral-600">
-                New Dev In Town…
+                New Dev In Town
               </p>
             </div>
             <div className="flex items-center gap-1.5">

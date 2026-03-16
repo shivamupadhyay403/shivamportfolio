@@ -75,14 +75,14 @@ export default function Home() {
               Contact
             </a>
           </nav>
-          <a
+          {/* <a
             href={p.links?.resume || "#contact"}
             className="inline-flex items-center justify-center rounded-full bg-sky-600 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-white shadow-sm ring-1 ring-sky-500/80 transition hover:bg-sky-700"
             target={p.links?.resume?.startsWith("http") ? "_blank" : undefined}
             rel={p.links?.resume?.startsWith("http") ? "noreferrer" : undefined}
           >
             Resume
-          </a>
+          </a> */}
         </div>
       </header>
 

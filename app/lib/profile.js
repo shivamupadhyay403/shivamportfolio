@@ -14,7 +14,7 @@ export const PROFILE = {
     phone: "+91 9555380209",
     github: "https://github.com/shivamupadhyay403", // add your GitHub handle
     linkedin: "https://www.linkedin.com/in/shivam-upadhyay-28b303213/", // add your LinkedIn slug
-    resume: "/resume.pdf",
+    // resume: "/resume.pdf",
   },
 
   highlights: [
@@ -106,7 +106,7 @@ export const PROFILE = {
       name: "WHOLESALE DEALS",
       description:
         "Wholesale marketplace built with React and Tailwind CSS, focused on scalable UI architecture and real‑time communication.",
-      link: "",
+      link: "https://www.wholesaledeals.co.uk/",
       repo: "",
       tech: ["React.js", "Tailwind CSS", "Redux Toolkit", "Socket.IO"],
       highlights: [
@@ -116,10 +116,10 @@ export const PROFILE = {
       ],
     },
     {
-      name: "DEALMALL",
+      name: "WHOLESALELINKS",
       description:
         "Next.js + Tailwind version of WHOLESALE DEALS tailored for the Indian market, with improved performance and DX.",
-      link: "",
+      link: "https://www.wholesalelinks.in/",
       repo: "",
       tech: ["Next.js", "Tailwind CSS", "Redux Toolkit"],
       highlights: [
@@ -131,7 +131,7 @@ export const PROFILE = {
       name: "SAMASTT",
       description:
         "React‑based application backed by Node.js/Express APIs and MySQL for managing business workflows.",
-      link: "",
+      link: "https://samastt.tatapowertrading.com/login",
       repo: "",
       tech: ["React.js", "Node.js", "Express.js", "MySQL", "Formik", "Yup", "jQuery"],
       highlights: [
@@ -144,7 +144,7 @@ export const PROFILE = {
       name: "BIJLI VYAPAAR",
       description:
         "Energy trading platform modules with React frontend and Node.js/Express backend services.",
-      link: "",
+      link: "https://ptcexchange.ptcindia.com/jsp/Login.jsp",
       repo: "",
       tech: ["React.js", "Node.js", "Express.js", "MySQL", "Sequelize", "Redux Toolkit"],
       highlights: [
@@ -171,7 +171,7 @@ export const PROFILE = {
       name: "PTC AWS BIAS",
       description:
         "Data‑heavy React application integrated with AWS services and advanced reporting features.",
-      link: "",
+      link: "https://ptcexchange.ptcindia.com/jsp/Login.jsp",
       repo: "",
       tech: [
         "React.js",
