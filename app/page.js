@@ -1,7 +1,6 @@
  "use client";
 
 import { PROFILE } from "./lib/profile";
-import { Badge } from "./components/Badge";
 import { Section } from "./components/Section";
 import { motion } from "framer-motion";
 

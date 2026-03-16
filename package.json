@@ -5,7 +5,7 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "deploy": "next build && touch out/.nojekyll && npx gh-pages -d out --dotfiles"
+"deploy": "next build && mkdir -p out && touch out/.nojekyll && npx gh-pages -d out --dotfiles"
 },
   "dependencies": {
     "framer-motion": "^12.36.0",
