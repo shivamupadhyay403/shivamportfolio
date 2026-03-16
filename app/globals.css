@@ -1,5 +1,72 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans;
+    background:
+      radial-gradient(circle at top left, rgba(3, 105, 161, 0.18), transparent 55%),
+      radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.14), transparent 52%),
+      #f8fafc;
+  }
+
+  ::selection {
+    @apply bg-additional-smoothblue text-neutral-900;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-glass {
+    @apply relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-[0_18px_40px_rgba(15,23,42,0.12)] backdrop-blur-xl;
+  }
+
+  .pill-soft {
+    @apply rounded-full border border-slate-200 bg-sky-50 text-xs font-medium uppercase tracking-[0.18em] text-sky-700;
+  }
+}
+
+@keyframes dot {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+
+@keyframes bar {
+  0% {
+    transform: translateX(-60%);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(260%);
+    opacity: 0.55;
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
